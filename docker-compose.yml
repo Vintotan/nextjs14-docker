@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: next14-docker
+    container_name: next14js-docker
     ports:
       - "3000:3000"
     volumes:
